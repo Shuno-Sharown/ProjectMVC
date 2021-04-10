@@ -230,6 +230,7 @@
     <Compile Include="helper\RegexUtils.cs" />
     <Compile Include="helper\SitemapChangeFrequency.cs" />
     <Compile Include="helper\StringExtensions.cs" />
+    <Compile Include="Lab3Git.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ISitemapItem.cs" />
