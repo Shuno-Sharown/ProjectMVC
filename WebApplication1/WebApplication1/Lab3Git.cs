@@ -10,7 +10,10 @@ namespace WebApplication1
         /// web and register it with IIS before being able to use it. For more information
         /// see the following link: http://go.microsoft.com/?linkid=8101007
         /// </summary>
+<<<<<<< HEAD
         /// thay doi commit và push len server
+=======
+>>>>>>> fc21d8a0df4cad120e9ad8e869f6d486dc56a2f0
         #region IHttpHandler Members
 
         public bool IsReusable
