@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TMDT05ModelStoreContainer" CdmEntityContainer="TMDT05Entities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="TMDT05Model.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Alias" ColumnName="Alias" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="TMDT05Model.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Header" ColumnName="Header" />
+          <ScalarProperty Name="Alias" ColumnName="Alias" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CateID" ColumnName="CateID" />
+          <ScalarProperty Name="changefreq" ColumnName="changefreq" />
+          <ScalarProperty Name="priority" ColumnName="priority" />
+          <ScalarProperty Name="datemodified" ColumnName="datemodified" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
